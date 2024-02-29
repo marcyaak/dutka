@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modna Strona</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 style="margin: 0;">Moja Modna Strona</h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Strona Główna</a>
+        <a href="Page2.html">O nas</a>
+    </nav>
+
+
+
+    <div class="content" id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="https://www.uniformshop.pl/!uploads/odziez_medycna_duze_rozmiary.jpg" alt="Gallery Image 1">
+            <img src="https://rok.com.pl/wp-content/uploads/2020/04/odziez-katalogowa-online.jpg" alt="Gallery Image 2">
+            <img src="https://fuks-odziez.pl/wp-content/uploads/2021/05/istock-edited-scaled.jpeg" alt="Gallery Image 3">
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="margin: 0;">Stopka © 2024</p>
+    </div>
+
+</body>
+
+</html>
